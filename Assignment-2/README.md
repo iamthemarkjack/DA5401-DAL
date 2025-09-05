@@ -1,4 +1,4 @@
-"""# Dimensionality Reduction and Classification with PCA
+# Dimensionality Reduction and Classification with PCA
 Assignment - 2 | Rohith R - EP21B030  
 
 ## Project Overview  
