@@ -7,6 +7,7 @@ This assignment aims to challenge your understanding of class imbalance, unsuper
 
 ## Usage  
 1. Open the notebook file (`notebook.ipynb`).
+2. Download the dataset from kaggle, [link to dataset.](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 2. Run all cells in sequence to reproduce the analysis, visualizations, and results.
 3. The notebook is self-contained and manages resampling with SMOTE, CBO and CBU, training and evaluation.
 
