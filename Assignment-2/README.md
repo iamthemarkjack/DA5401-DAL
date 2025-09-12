@@ -26,7 +26,7 @@ PCA reduces feature redundancy and dimensionality while maintaining nearly the s
 3. The notebook is self-contained and manages preprocessing, PCA, and classification.  
 
 ## Requirements  
-Install the required Python packages using:  
+If you don't have the packages installed already install the required Python packages using in a venv:  
 
 ```bash
 pip install -r requirements.txt
