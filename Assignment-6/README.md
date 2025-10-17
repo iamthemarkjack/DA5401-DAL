@@ -1,5 +1,7 @@
 # Imputation via Regression for Missing Data 
-**Assignment 6 | Rohith R - EP21B030** ---
+**Assignment 6 | Rohith R - EP21B030** 
+
+---
 
 ## Overview  
 This assignment explores and compares different **missing data handling strategies** on a classification dataset, specifically focusing on **listwise deletion** and various **single imputation methods**. The imputation techniques include **mean/median**, **linear regression**, and **non-linear regression**, with the performance of each strategy evaluated using key classification metrics (Accuracy, Precision, Recall, F1-score).
