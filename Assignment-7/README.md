@@ -77,9 +77,3 @@ The notebook performs:
 - Per-class PRC breakdown for worst-performing model
 - Comparative bar charts across all evaluation metrics
 - Ranking consistency analysis
-
----
-
-## Requirements
-Install the required Python packages with:
-```bash
