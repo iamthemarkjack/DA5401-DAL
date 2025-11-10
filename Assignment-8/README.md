@@ -62,38 +62,6 @@ The notebook outputs clear RMSE tables, visual comparisons, and explanatory mark
 
 ---
 
-## Conceptual Insights
-
-### Bagging
-Averaging multiple models trained on bootstrap samples reduces variance:  
-$
-\text{Var}[\hat{f}_{\text{bag}}] = \rho\sigma^2 + \frac{(1-\rho)}{M}\sigma^2
-$
-
-### Boosting
-Sequentially corrects residual errors to reduce bias:  
-$
-\hat{f}_M(x) = \sum_{m=1}^M \gamma_m h_m(x)
-$
-
-### Stacking
-Learns an optimal combination of heterogeneous base models through a meta-learner:  
-$
-\hat{f}_{\text{stack}}(x) = g(h_1(x), h_2(x), \dots, h_k(x))
-$
-
-Stacking typically outperforms both Bagging and Boosting by learning how to weight model strengths adaptively.
-
----
-
-## Visual Outputs
-- RMSE bar plot comparing all models  
-- Correlation heatmap of base learner predictions  
-- Predicted vs Actual scatter plots for top models  
-- Markdown explanations of bias–variance trade-off and stacking intuition  
-
----
-
 ## Summary
 - **Bagging** → reduces **variance**  
 - **Boosting** → reduces **bias**  
